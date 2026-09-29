@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from './Auth/contexts/AuthContext';
-import ProtectedRoute from './components/shared/ProtectedRoute';
+import ProtectedRoute from './components/ProtectedRoute';
 import PaginaLogin from './Auth/pages/PaginaLogin';
 import PaginaRegistro from './Auth/pages/PaginaRegistro';
 import PaginaPainel from './Auth/pages/PaginaPainel';

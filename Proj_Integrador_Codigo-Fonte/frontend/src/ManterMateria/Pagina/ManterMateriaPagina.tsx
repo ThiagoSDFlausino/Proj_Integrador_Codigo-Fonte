@@ -5,7 +5,7 @@ import { useAuth } from '../../Auth/contexts/AuthContext';
 import MateriaController from '../Controller/ManterMateriaController';
 import type { Materia } from '../../classes';
 import ManterMateriaModal from './ManterMateriaModal';
-import Navbar from '../../components/shared/Navbar';
+import Navbar from '../../components/Navbar';
 
 type ModalState =
   | { mode: 'create' }
